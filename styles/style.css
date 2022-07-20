@@ -5,21 +5,23 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 50px 140px 0px 140px;
+    overflow-x: hidden;
 
 }
 
 .container {
     display: flex;
     background-color: black;
-    color: white;
+
     border-radius: 30px;
-    right: 218px;
-    width: 100%;
+    right: 18px;
+    width: 1420px;
     margin-bottom: 130px;
 
 }
 
 .main-Title {
+    color: white;
     padding-left: 106px;
     padding-top: 111px;
     padding-bottom: 111px;
