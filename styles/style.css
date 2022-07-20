@@ -5,7 +5,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 50px 140px 0px 140px;
-    overflow-x: hidden;
+
 }
 
 .container {
@@ -13,6 +13,7 @@ body {
     background-color: black;
     color: white;
     border-radius: 30px;
+    right: 218px;
     width: 100%;
     margin-bottom: 130px;
 
@@ -37,10 +38,23 @@ body {
 #image img {
 
     position: absolute;
-    width: 481px;
+
+    width: 500px;
     height: 728px;
-    right: 218px;
+
     top: 90px;
+    left: 1000px;
+}
+
+.image img {
+
+    position: absolute;
+
+    width: 681px;
+    height: 728px;
+
+    top: 90px;
+    left: 900px;
 }
 
 button {
@@ -73,10 +87,12 @@ button {
     width: 312px;
     height: 330px;
     left: 140px;
-
-
     background: #161616;
     border-radius: 10px;
+}
+
+.match:hover {
+    background-color: red;
 }
 
 .match {
@@ -100,6 +116,8 @@ button {
 }
 
 .thumbnail img {
+    padding-top: 20px;
+    padding-right: 20px;
     width: 312px;
     height: 175px;
 
@@ -128,7 +146,7 @@ button {
     color: #716060;
     width: 100px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 23px;
     margin-top: 10px;
     text-align: center;
     padding: 7px;
@@ -156,9 +174,27 @@ button {
 
 }
 
+.Flag img {
+    width: 130px;
+}
+
+.Flag {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+
+}
+
 .info {
     display: flex;
 
+
+}
+
+.blog-info {
+    text-align: center;
 }
 
 .match-duration {
@@ -168,15 +204,15 @@ button {
 }
 
 /* ------------------footer------------------------ */
-.footer {
+footer {
     width: 1600px;
     height: 360px;
-    margin-left: 0px;
     font-size: 40px;
     font-weight: 700;
     background: #161616;
     text-align: center;
     padding-top: 50px;
+    padding-left: 0px;
 
 }
 
@@ -194,11 +230,12 @@ hr {
     font-weight: 200;
     font-size: 16px;
     line-height: 15px;
-    margin-top: 60px;
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: aliceblue;
+
 
 
 }
@@ -207,5 +244,27 @@ hr {
     margin-top: 40px;
 
     color: #E8E8E8;
+
+}
+
+/* --------------------------------------
+media quaries
+-------------------------------------- */
+@media only screen and(max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-Title,
+    #image {
+        grid-template-columns: (2, 1fr);
+    }
+
+    .main-Title,
+    #image {
+        flex-direction: column;
+    }
+
+
 
 }
