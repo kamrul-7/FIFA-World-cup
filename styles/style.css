@@ -18,6 +18,8 @@ body {
     margin-bottom: 10%;
 }
 
+/* main containts */
+
 .main-Title {
     color: rgb(253, 248, 248);
     padding-left: 106px;
@@ -41,13 +43,9 @@ body {
     width: 100%;
     height: 90%;
     margin-top: 21%;
-
 }
 
-
-
 button {
-
     background-color: #DD0000;
 
     border: none;
@@ -67,15 +65,12 @@ button {
     background-color: red;
 }
 
-
 /* --------------------------------
           Time tables
 ----------------------------------- */
 .Time-Table {
     margin-left: 10%;
     display: flex;
-
-
 }
 
 .Schedule {
@@ -83,9 +78,6 @@ button {
     height: 330px;
     background: #161616;
     border-radius: 10px;
-
-
-
 }
 
 .match:hover {
@@ -112,14 +104,12 @@ button {
 
 }
 
-
+/* Blogs and articles */
 .thumbnail img {
     padding-top: 20px;
     padding-right: 20px;
     width: 312px;
     height: 175px;
-
-
 }
 
 .thumbnail {
@@ -147,7 +137,6 @@ button {
     padding: 7px;
     border: 2px solid black;
     border-radius: 5px;
-
 }
 
 .transfer a {
@@ -155,7 +144,6 @@ button {
     color: black;
     font-weight: 400;
 }
-
 
 .blog-info {
     margin-left: 24px;
@@ -168,17 +156,15 @@ button {
 
 .Flag {
     display: flex;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 30px;
-
+    font-weight: 500;
 }
 
 .info {
     display: flex;
-
-
 }
 
 .blog-info {
@@ -226,15 +212,11 @@ hr {
     align-items: center;
     justify-content: space-evenly;
     color: aliceblue;
-
-
-
 }
 
 .social-network {
     display: flex;
     color: #E8E8E8;
-
     margin-top: 5%;
     font-size: 2em;
     margin-left: 47%;
@@ -242,9 +224,11 @@ hr {
 }
 
 /* --------------------------------------
-media quaries
+            Media quaries
 -------------------------------------- */
-/* For mobiles */
+/*============================================
+            For mobiles 
+ ================================================*/
 @media only screen and (max-width: 768px) {
 
     .Time-Table,
@@ -270,7 +254,9 @@ media quaries
 
 }
 
-/* For Tablet */
+/*-------------------------------------------------
+                For Tablet
+ ================================================== */
 @media only screen and (min-width: 768px) and (max-width:1023px) {
 
     .Time-Table {
@@ -278,7 +264,6 @@ media quaries
         display: flex;
         flex-direction: column;
         grid-template-columns: repeat(2, 1fr);
-
 
     }
 
