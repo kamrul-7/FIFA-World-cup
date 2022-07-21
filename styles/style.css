@@ -177,6 +177,22 @@ button {
     justify-content: space-evenly;
 }
 
+.Tablet {
+    text-decoration: none;
+    display: flex;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    border-radius: 8px;
+
+}
+
 /* ------------------footer------------------------ */
 footer {
     width: 100%;
@@ -261,7 +277,7 @@ hr {
 
     .Time-Table {
         size: 80%;
-        display: flex;
+        display: wrap;
         flex-direction: column;
         grid-template-columns: repeat(2, 1fr);
 
@@ -302,6 +318,13 @@ hr {
         display: grid;
 
         grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .Tablet {
+        background-color: red;
     }
 
 }
