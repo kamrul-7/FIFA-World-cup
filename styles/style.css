@@ -41,8 +41,9 @@ body {
 
 .image img {
     width: 100%;
-    height: 90%;
+    height: 900px;
     margin-top: 21%;
+    margin-right: 10%;
 }
 
 button {
@@ -314,7 +315,9 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width:1023px) {
-    .information {
+
+    .information,
+    .Time-Table {
         display: grid;
 
         grid-template-columns: repeat(2, 1fr);
